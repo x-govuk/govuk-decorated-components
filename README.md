@@ -1,6 +1,6 @@
 # GOV.UK Decorated Components · [![test](https://github.com/x-govuk/govuk-decorated-components/actions/workflows/test.yml/badge.svg)](https://github.com/x-govuk/govuk-decorated-components/actions/workflows/test.yml)
 
-Form components for the GOV.UK Design System that require less parameters to collect data. [Replace the multiple parameters needed for saving data with a single `decorate` parameter](https://x-govuk.github.io/govuk-prototype-rig/using-data/form-components/) with a single `decorate` parameter.
+Form components for the GOV.UK Design System that require less parameters to collect data. [Replace the multiple parameters needed for saving data with a single `decorate` parameter](https://x-govuk.github.io/govuk-prototype-rig/using-data/form-components/).
 
 ## Requirements
 
