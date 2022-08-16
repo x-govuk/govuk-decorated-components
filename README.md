@@ -23,9 +23,9 @@ To add them to the GOV.UK Prototype Kit, follow these steps:
     ```diff
       // Set up App
       var appViews = extensions.getAppViews([
-    +   path.join(__dirname, '/node_modules/govuk-decorated-components'),
-        path.join(__dirname, '/app/views/'),
-        path.join(__dirname, '/lib/')
+    +   path.join(projectDir, '/node_modules/govuk-decorated-components'),
+        path.join(projectDir, '/app/views/'),
+        path.join(projectDir, '/lib/')
       ])
     ```
 
@@ -35,7 +35,7 @@ To add them to the GOV.UK Prototype Kit, follow these steps:
       var nunjucksAppEnv = nunjucks.configure(appViews, nunjucksConfig)
 
       // Add Nunjucks Globals
-    + const decorate = require('govuk-decorated-components')
+    + const { decorate } = require('govuk-decorated-components')
     + nunjucksAppEnv.addGlobal('decorate', decorate)
 
       // Add Nunjucks filters
