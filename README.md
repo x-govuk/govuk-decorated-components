@@ -8,7 +8,7 @@ Node.js v16 or later.
 
 ## Installation
 
-> These components are included by default with the [GOV.UK Prototype Rig](https://x-govuk.github.io/govuk-prototype-rig/).
+> **Note** These components are included by default with the [GOV.UK Prototype Rig](https://x-govuk.github.io/govuk-prototype-rig/).
 
 ```shell
 npm install govuk-decorated-components --save
