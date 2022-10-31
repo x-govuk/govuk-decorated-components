@@ -1,6 +1,6 @@
 {
   "name": "govuk-decorated-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Form components for the GOV.UK Design System that require less parameters to collect data",
   "keywords": [
     "govuk",
