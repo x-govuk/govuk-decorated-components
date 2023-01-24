@@ -1,0 +1,42 @@
+{
+  "nunjucksPaths": [
+    "/x-govuk/decorated/"
+  ],
+  "nunjucksFilters": [
+    "/govuk-prototype-kit/decorate.js"
+  ],
+  "nunjucksMacros": [
+    {
+      "importFrom": "button/macro.njk",
+      "macroName": "govukButton"
+    },
+    {
+      "importFrom": "character-count/macro.njk",
+      "macroName": "govukCharacterCount"
+    },
+    {
+      "importFrom": "checkboxes/macro.njk",
+      "macroName": "govukCheckboxes"
+    },
+    {
+      "importFrom": "date-input/macro.njk",
+      "macroName": "govukDateInput"
+    },
+    {
+      "importFrom": "file-upload/macro.njk",
+      "macroName": "govukFileUpload"
+    },
+    {
+      "importFrom": "radios/macro.njk",
+      "macroName": "govukRadios"
+    },
+    {
+      "importFrom": "select/macro.njk",
+      "macroName": "govukSelect"
+    },
+    {
+      "importFrom": "textarea/macro.njk",
+      "macroName": "govukTextarea"
+    }
+  ]
+}

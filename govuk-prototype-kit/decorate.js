@@ -1,4 +1,6 @@
 const _ = require('lodash')
+const govukPrototypeKit = require('govuk-prototype-kit')
+const { addGlobal } = govukPrototypeKit.views
 
 /**
  * Add `name`, `value`, `id`, `idPrefix` and `checked`/`selected` attributes
@@ -10,7 +12,7 @@ const _ = require('lodash')
  * @param {string} [componentName] - Name of component calling decorate
  * @returns {Object} Updated component parameters
  */
-exports.decorate = function (originalParams, keyPath, componentName) {
+const decorate = function (originalParams, keyPath, componentName) {
   if (typeof keyPath === 'undefined') {
     return originalParams
   }
@@ -142,3 +144,5 @@ exports.decorate = function (originalParams, keyPath, componentName) {
 
   return params
 }
+
+addGlobal('decorate', decorate)

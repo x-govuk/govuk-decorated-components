@@ -14,7 +14,8 @@
   },
   "license": "MIT",
   "files": [
-    "lib",
+    "govuk-prototype-kit.config.json",
+    "govuk-prototype-kit",
     "x-govuk"
   ],
   "main": "lib/decorate.js",
